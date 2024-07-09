@@ -4,6 +4,10 @@
 
 body {
   background: #f6f5f7;
+  /* background: #ff416c; */
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,6 +69,10 @@ button:focus {
 button.ghost {
   background-color: transparent;
   border-color: #ffffff;
+}
+
+button.ghost:hover {
+  background-color: #000000ac;
 }
 
 form {
@@ -160,10 +168,12 @@ input {
 .overlay {
   background: #ff416c;
   background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
-  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  /* background: linear-gradient(to right, #ff4b2b, #ff416c); */
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0 0;
+  background-position: right;
+  background-image: linear-gradient(to right, #ff4b2bac, #ff416cac),
+    url("../../assets/partyAnimalsBgTavern.png");
   color: #ffffff;
   position: relative;
   left: -100%;

@@ -40,9 +40,7 @@ export default function Login() {
         <div className="overlay">
           <div className="overlay-panel overlay-left">
             <h1>Welcome Back!</h1>
-            <p>
-              To keep connected with us please login with your personal info
-            </p>
+            <p>Have an account? Let's party again!</p>
             <button
               className="ghost"
               onClick={() => handleSignUp()}
@@ -53,7 +51,7 @@ export default function Login() {
           </div>
           <div className="overlay-panel overlay-right">
             <h1>Hello, Friend!</h1>
-            <p>Enter your personal info and start journey with us</p>
+            <p>Create your account and let's party!</p>
             <button
               className="ghost"
               onClick={() => handleSignIn()}
